@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '--tag=gcr.io/${PROJECT_ID}/firebase', '.']
+- name: 'gcr.io/${PROJECT_ID}/firebase'
+  args: ['--help']
+
+images: ['gcr.io/${PROJECT_ID}/firebase']
