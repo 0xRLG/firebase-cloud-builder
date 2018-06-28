@@ -2,6 +2,10 @@
 
 A Google Container Builder for Firebase
 
+# Deprecated
+
+You should instead use the [firebase builder](https://github.com/GoogleCloudPlatform/cloud-builders-community/tree/master/firebase) in the Community Builders repository.
+
 You can use this image as build steps with
 [Google Cloud Container Builder](https://cloud.google.com/container-builder/docs/).
 
